@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+   <h2>Survey Questions</h2>
+   <hr>
+   <h3><strong>About you</strong></h3>
+   <h4>Name (Required)</h4>
+   <input type="text" name="" id="name" class="form-control" required>
+
+   <h4>Link To Photo Image (Required)</h4>
+   <input type="text" name="" id="photo" class="form-control" required>
+   <hr>
+
+   <h3><Strong>Question 1</Strong></h3>
+   <h4>You like staying indoors.</h4>
+   <select data-placeholder="" class="chosen-select" id="ql">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 2</Strong></h3>
+   <h4>You dislike programming.</h4>
+   <select data-placeholder="" class="chosen-select" id="q2">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 3</Strong></h3>
+   <h4>Real Madrid is better than Barcelona.</h4>
+   <select data-placeholder="" class="chosen-select" id="q3">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 4</Strong></h3>
+   <h4>PS4 is better than xboxONE.</h4>
+   <select data-placeholder="" class="chosen-select" id="q4">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 5</Strong></h3>
+   <h4>You are part of the PC master race.</h4>
+   <select data-placeholder="" class="chosen-select" id="q5">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 6</Strong></h3>
+   <h4>You are a competitive gamer.</h4>
+   <select data-placeholder="" class="chosen-select" id="q6">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 7</Strong></h3>
+   <h4>You are not as good a gamer as you think.</h4>
+   <select data-placeholder="" class="chosen-select" id="q7">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 8</Strong></h3>
+   <h4>Games are life.</h4>
+   <select data-placeholder="" class="chosen-select" id="q8">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 9</Strong></h3>
+   <h4>This homework took way too long.</h4>
+   <select data-placeholder="" class="chosen-select" id="q9">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <h3><Strong>Question 10</Strong></h3>
+   <h4>This is the last question of the homework.</h4>
+   <select data-placeholder="" class="chosen-select" id="ql0">
+     <option value=""></option>
+     <option value="1">1 (Strongly Disagree)</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5 (Strongly Agree)</option>
+   </select>
+
+   <br>
+   <br>
+
+   <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true">Submit</i></button>
+
+  <hr>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+  <div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="matchName"></h2>
+          <img id="matchImg" src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  $("#submit").on("click", function(){
+    function validateForm(){
+      var isValid = true;
+      $(".form-control").each(function(){
+        if($(this).val() === ""){
+          isValid = false;
+        }
+      });
+      $(".chosen-select").each(function(){
+        if($(this).val() === ""){
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
+
+    if(validateForm()){
+      var userData = {
+        name: $("#name").val(),
+        photo: $("#photo").val(),
+        scores: [
+          $("#q1").val(),
+          $("#q2").val(),
+          $("#q3").val(),
+          $("#q4").val(),
+          $("#q5").val(),
+          $("#q6").val(),
+          $("#q7").val(),
+          $("#q8").val(),
+          $("#q9").val(),
+          $("#q10").val()
+        ]
+      }
+
+      var currentURL = window.location.origin;
+
+      $.post(currentURL + "/api/friends", userData, function(data){
+
+        $("#resultsModal").modal("toggle");
+
+      })
+    } else{
+      alert("please fill out all the fields before submitting")
+    }
+
+    return false;
+  })
+</script>
+</body>
+
+</html>
